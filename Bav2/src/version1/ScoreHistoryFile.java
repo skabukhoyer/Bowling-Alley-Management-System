@@ -13,6 +13,7 @@ import java.io.*;
 public class ScoreHistoryFile {
 
 	private static String SCOREHISTORY_DAT = "C:\\\\Users\\\\Sk Abukhoyer\\\\eclipse-workspace\\\\Bav2\\\\src\\\\SCOREHISTORY.DAT";
+	
 
 	public static void addScore(String nick, String date, String score)
 		throws IOException, FileNotFoundException {

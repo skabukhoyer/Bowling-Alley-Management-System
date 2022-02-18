@@ -22,7 +22,7 @@ import javax.swing.event.*;
 
 import java.util.*;
 
-public class ControlDeskView implements ActionListener, ControlDeskObserver {
+public class ControlDeskView implements ActionListener {
 
 	private JButton addParty, finished, assign;
 	private JFrame win;
@@ -175,7 +175,7 @@ public class ControlDeskView implements ActionListener, ControlDeskObserver {
 	 *
 	 */
 
-	public void receiveControlDeskEvent(ControlDeskEvent ce) {
-		partyList.setListData(((Vector) ce.getPartyQueue()));
-	}
+//	public void receiveControlDeskEvent(ControlDeskEvent ce) {
+//		partyList.setListData(((Vector) ce.getPartyQueue()));
+//	}
 }
